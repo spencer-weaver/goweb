@@ -1,0 +1,9 @@
+{{ define "dropdown" }}
+<div x-data="dropdown">
+    <button @click="toggle">toggle content</button>
+
+    <div x-show="open" x-transition>
+        {{ block "content" .}}{{ end }}
+    </div>
+</div>
+{{ end }}
