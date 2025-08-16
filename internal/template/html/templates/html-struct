@@ -1,0 +1,23 @@
+package html
+{{- range .Elements }}
+{{- $name := . | title }}
+{{- $tag := . | lower }}
+
+func New{{ $name }}() *Component {
+	return &Component{
+		Node: Node{
+			Name: "{{ $tag }}",
+		},
+		Render: RenderSpec{
+			Type:        "html",
+			Template:    "{{ $tag }}-html",
+			SelfClosing: IsSelfClosing("{{ $tag }}"),
+		},
+	}
+}
+
+func (component *Component) Add{{ $name }}() *Component {
+	new{{ $name }} := New{{ $name }}()
+	return component.AddChild(new{{ $name }})
+}
+{{- end }}

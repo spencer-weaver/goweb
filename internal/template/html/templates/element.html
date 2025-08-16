@@ -1,0 +1,1 @@
+{{ define "%s-html" }}<%s{{ if .Attributes }}{{ range .Attributes }}{{- " "}}{{ .Label }}="{{ .Value }}"{{ end }}{{ end }}{{ if .Render.SelfClosing }}/>{{ else }}>{{ if .InnerHTML }}{{  .InnerHTML  }}{{ end }}</%s>{{ end }}{{ end }}

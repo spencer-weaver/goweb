@@ -1,0 +1,26 @@
+{
+    "themes": [
+        {
+            "name": "light",
+            "palette": {
+                "primary": "#2563EB",
+                "secondary": "#7C3AED",
+                "accent": "#F59E0B",
+                "background": "#F9FAFB",
+                "foreground": "#111827",
+                "error": "#DC2626",
+                "warning": "#D97706",
+                "success": "#16A34A",
+                "info": "#0EA5E9",
+                "custom": [
+                    { "name": "muted", "value": "#6B7280" },
+                    { "name": "border", "value": "#E5E7EB" },
+                    { "name": "input", "value": "#F3F4F6" },
+                    { "name": "hover", "value": "#E0E7FF" },
+                    { "name": "disabled", "value": "#D1D5DB" },
+                    { "name": "highlight", "value": "#FEF3C7" }
+                ]
+            }
+        }
+    ]
+}

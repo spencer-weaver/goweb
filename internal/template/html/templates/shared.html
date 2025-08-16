@@ -1,0 +1,12 @@
+{{ define "renderAttributes" -}}
+    {{- if . }}
+        {{- range . }}
+            {{- printf ` %s="%s"` .Label .Value }}
+        {{- end -}}
+    {{- end }}
+{{ end }}
+{{ define "renderContent" -}}
+    {{- if .InnerHTML -}}
+        {{-  .InnerHTML  -}}
+    {{- end -}}
+{{ end }}

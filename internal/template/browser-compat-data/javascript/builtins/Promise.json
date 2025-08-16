@@ -1,0 +1,665 @@
+{
+  "javascript": {
+    "builtins": {
+      "Promise": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+          "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-objects",
+          "tags": [
+            "web-features:promise",
+            "web-features:snapshot:ecmascript-2015"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "32"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
+            },
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "29"
+            },
+            "firefox_android": "mirror",
+            "nodejs": {
+              "version_added": "0.12.0"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "8"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "Promise": {
+          "__compat": {
+            "description": "`Promise()` constructor",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-constructor",
+            "tags": [
+              "web-features:promise",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "32"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "29",
+                "notes": "Constructor requires a new operator since version 37."
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "0.12.0",
+                "notes": "Constructor requires a new operator since version 4."
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8",
+                "notes": "Constructor requires a new operator since version 10."
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "all": {
+          "__compat": {
+            "description": "`all()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/all",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.all",
+            "tags": [
+              "web-features:promise",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "32"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "29"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "allSettled": {
+          "__compat": {
+            "description": "`allSettled()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.allsettled",
+            "tags": [
+              "web-features:promise-allsettled",
+              "web-features:snapshot:ecmascript-2020"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "76"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "71"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "12.9.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "13"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "any": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/any",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.any",
+            "tags": [
+              "web-features:promise-any",
+              "web-features:snapshot:ecmascript-2021"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "85"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.2"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "79"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "15.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "catch": {
+          "__compat": {
+            "description": "`catch()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.catch",
+            "tags": [
+              "web-features:promise",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "32"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "29"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "finally": {
+          "__compat": {
+            "description": "`finally()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.finally",
+            "tags": [
+              "web-features:promise-finally",
+              "web-features:snapshot:ecmascript-2018"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "63"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "18"
+              },
+              "firefox": {
+                "version_added": "58"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "10.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "11.1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "incumbent_settings_object_tracking": {
+          "__compat": {
+            "description": "Incumbent settings object tracking",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise#incumbent_settings_object_tracking",
+            "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object-tracking-in-promises",
+            "tags": [
+              "web-features:promise"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "50"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "race": {
+          "__compat": {
+            "description": "`race()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/race",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.race",
+            "tags": [
+              "web-features:promise",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "32"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "29"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "reject": {
+          "__compat": {
+            "description": "`reject()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.reject",
+            "tags": [
+              "web-features:promise",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "32"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "29"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "resolve": {
+          "__compat": {
+            "description": "`resolve()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.resolve",
+            "tags": [
+              "web-features:promise",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "32"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "29"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "then": {
+          "__compat": {
+            "description": "`then()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/then",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.then",
+            "tags": [
+              "web-features:promise",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "32"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "29"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "try": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/try",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.try",
+            "tags": [
+              "web-features:promise-try"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "128"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.46"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "134"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "23.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "18.2"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "withResolvers": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/withResolvers",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.withResolvers",
+            "tags": [
+              "web-features:promise-withresolvers"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "119"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.38"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "121"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17.4"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "@@species": {
+          "__compat": {
+            "description": "[Symbol.species]",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/Symbol.species",
+            "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-get-promise-%symbol.species%",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:promise"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "51"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "48"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": "6.5.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "10"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

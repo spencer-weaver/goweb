@@ -1,0 +1,454 @@
+{
+  "webextensions": {
+    "api": {
+      "pageAction": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction",
+          "support": {
+            "chrome": {
+              "version_added": "≤23",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "edge": {
+              "version_added": "14",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "firefox": {
+              "version_added": "45"
+            },
+            "firefox_android": {
+              "version_added": "50"
+            },
+            "opera": "mirror",
+            "safari": {
+              "version_added": "14",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "safari_ios": {
+              "version_added": "15",
+              "notes": "Available for use in Manifest V2 only."
+            }
+          }
+        },
+        "ImageDataType": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/ImageDataType",
+            "support": {
+              "chrome": {
+                "version_added": "23"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "79"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
+              }
+            }
+          }
+        },
+        "getPopup": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getPopup",
+            "support": {
+              "chrome": {
+                "version_added": "19"
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "50",
+                "notes": "The 'tabId' parameter is ignored: the page action popup is the same for all tabs."
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
+              }
+            }
+          }
+        },
+        "getTitle": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getTitle",
+            "support": {
+              "chrome": {
+                "version_added": "19"
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "79"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
+              }
+            }
+          }
+        },
+        "hide": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/hide",
+            "support": {
+              "chrome": {
+                "version_added": "4"
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "50",
+                "notes": "Before version 56, the 'tabId' parameter was ignored, and the page action was hidden for all tabs."
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "isShown": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/isShown",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "59"
+              },
+              "firefox_android": {
+                "version_added": "79"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "onClicked": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked",
+            "support": {
+              "chrome": {
+                "version_added": "4"
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "50"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
+              }
+            }
+          },
+          "OnClickData": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "72"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
+                }
+              }
+            }
+          },
+          "tab": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "≤78"
+                },
+                "edge": {
+                  "version_added": "14"
+                },
+                "firefox": {
+                  "version_added": "45"
+                },
+                "firefox_android": {
+                  "version_added": "50"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
+                }
+              }
+            }
+          }
+        },
+        "openPopup": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/openPopup",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "57"
+              },
+              "firefox_android": {
+                "version_added": "79"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": "16"
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "setIcon": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setIcon",
+            "support": {
+              "chrome": {
+                "version_added": "≤23",
+                "notes": "Before Chrome 23, `path` couldn't specify multiple icon files, but had to be a string specifying a single icon path."
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "79"
+              },
+              "opera": {
+                "version_added": "15"
+              },
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
+              }
+            }
+          },
+          "imageData": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "23"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "45"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
+                }
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The `path` and `imageData` properties of the `details` parameter can be set to `null`.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          }
+        },
+        "setPopup": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setPopup",
+            "support": {
+              "chrome": {
+                "version_added": "5"
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "50",
+                "notes": "The 'tabId' parameter is ignored, and the popup is set for all tabs."
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The `popup` property of the `details` parameter can be set to `null`.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          }
+        },
+        "setTitle": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setTitle",
+            "support": {
+              "chrome": {
+                "version_added": "4"
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "79"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15",
+                "partial_implementation": true,
+                "notes": "The API exists, but the title not visible in the UI."
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The `title` property of the `details` parameter can be set to `null`.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          }
+        },
+        "show": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/show",
+            "support": {
+              "chrome": {
+                "version_added": "4"
+              },
+              "edge": {
+                "version_added": "14"
+              },
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": {
+                "version_added": "50",
+                "notes": "Before version 56, the 'tabId' parameter was ignored, and the page action was shown for all tabs."
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "webextensions": {
+    "manifest": {
+      "offline_enabled": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/offline_enabled",
+          "support": {
+            "chrome": {
+              "version_added": "≤72"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "opera": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror"
+          }
+        }
+      }
+    }
+  }
+}

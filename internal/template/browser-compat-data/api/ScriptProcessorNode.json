@@ -1,0 +1,105 @@
+{
+  "api": {
+    "ScriptProcessorNode": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/ScriptProcessorNode",
+        "support": {
+          "chrome": {
+            "version_added": "24"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "12"
+          },
+          "firefox": {
+            "version_added": "25"
+          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "7"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": true
+        }
+      },
+      "audioprocess_event": {
+        "__compat": {
+          "description": "`audioprocess` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ScriptProcessorNode/audioprocess_event",
+          "support": {
+            "chrome": {
+              "version_added": "24"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "25"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "7"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      },
+      "bufferSize": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ScriptProcessorNode/bufferSize",
+          "spec_url": "https://webaudio.github.io/web-audio-api/#dom-scriptprocessornode-buffersize",
+          "support": {
+            "chrome": {
+              "version_added": "24"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "25"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "7"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      }
+    }
+  }
+}
